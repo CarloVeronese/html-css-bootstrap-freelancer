@@ -11,10 +11,22 @@ header{
     background-color: var(--dark-blue);
 }
 
+/* HERO */
+
+.hero{
+    background-color: var(--green);
+}
+
+.hero-profile{
+    width: 228px;
+    margin: 0;
+}
+
 /* VARIABLES */
 
 :root{
     --dark-blue:#2C3E50;
+    --green: #1ABC9C;
 }
 
 /* DEBUG */
@@ -30,4 +42,5 @@ header{
 
 .debug [class^="col"]{
     border: 2px solid red;
+    min-height: 50px;
 }
