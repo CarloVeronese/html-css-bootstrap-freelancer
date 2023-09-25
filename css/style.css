@@ -13,13 +13,35 @@ header{
 
 /* HERO */
 
-.hero{
+.hero,
+.about{
     background-color: var(--green);
 }
 
 .hero-profile{
     width: 228px;
     margin: 0;
+}
+
+/* ABOUT */
+
+.container-small{
+    width: 330px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 992px){
+    .container-small{
+        width: 700px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container-small{
+        width: 990px;
+    }
 }
 
 /* VARIABLES */
