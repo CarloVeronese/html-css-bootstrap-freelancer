@@ -7,7 +7,8 @@ a{
 
 /* HEADER */
 
-header{
+header,
+.copyright{
     background-color: var(--dark-blue);
 }
 
@@ -29,6 +30,17 @@ header{
     width: 330px;
 }
 
+/* CONTACT */
+
+.container-xsmall{
+    width: 300px;
+}
+
+/* DETAILS */
+
+.details{
+    background-color: var(--blue);
+}
 
 /* MEDIA QUERIES */
 
@@ -36,11 +48,17 @@ header{
     .container-small{
         width: 700px;
     }
+    .container-xsmall{
+        width: 670px;
+    }
 }
 
 @media (min-width: 1200px){
     .container-small{
         width: 990px;
+    }
+    .container-xsmall{
+        width: 1020px;
     }
 }
 
@@ -49,6 +67,7 @@ header{
 :root{
     --dark-blue:#2C3E50;
     --green: #1ABC9C;
+    --blue:#3A546D;
 }
 
 /* DEBUG */
