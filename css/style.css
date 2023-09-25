@@ -1,0 +1,33 @@
+/* RULES */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--dark-blue);
+}
+
+/* VARIABLES */
+
+:root{
+    --dark-blue:#2C3E50;
+}
+
+/* DEBUG */
+
+.debug .container{
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+.debug .row{
+    border: 2px solid pink;
+}
+
+.debug [class^="col"]{
+    border: 2px solid red;
+}
