@@ -36,7 +36,58 @@ header,
 }
 
 a{
-    color: var(green);
+    color: var(--green);
+}
+
+.social-icon{
+    aspect-ratio: 1 / 1;
+}
+
+/* STAR LINES */
+
+.star-line{
+    position: relative;
+    width: fit-content;
+    padding: 0 116px;
+}
+
+.star-line::before{
+    content: '';
+    height: 5px;
+    width: 94px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.star-line::after{
+    content: '';
+    height: 5px;
+    width: 94px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.portfolio .star-line::before,
+.portfolio .star-line::after,
+.contact .star-line::before,
+.contact .star-line::after{
+    background-color: black;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1200px){
+    .star-line{
+        padding: 0 170px;
+    }
+    .star-line::before,
+    .star-line::after{
+        width: 142px;
+    }
 }
 
 /* VARIABLES */
