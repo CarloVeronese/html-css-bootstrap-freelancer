@@ -35,6 +35,10 @@ header,
     background-color: var(--blue);
 }
 
+a{
+    color: var(green);
+}
+
 /* VARIABLES */
 
 :root{
