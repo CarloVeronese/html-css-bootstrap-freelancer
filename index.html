@@ -11,15 +11,17 @@
 <body>
     <header>
         <div class="container py-4">
-            <div class="row justify-content-between text-light fw-bold">
+            <div class="row justify-content-between text-light fw-bold align-items-center">
                 <div class="col-auto">
-                    <a href="" class="fs-4">START BOOTSTRAP</a>
+                    <a href="" class="fs-4  text-decoration-none text-light">START BOOTSTRAP</a>
                 </div>
-                <ul class="col-auto list-unstyled row d-none d-lg-flex mb-0 align-items-center">
-                    <li class="col"><a href="">PORTFOLIO</a></li>
-                    <li class="col"><a href="">ABOUT</a></li>
-                    <li class="col"><a href="">CONTACT</a></li>
-                </ul>
+                <div class="col-auto">
+                    <ul class="list-unstyled d-none d-lg-flex gap-4 mb-0">
+                        <li class="d-block"><a href="" class="text-decoration-none text-light">PORTFOLIO</a></li>
+                        <li class="d-block"><a href="" class="text-decoration-none text-light">ABOUT</a></li>
+                        <li class="d-block"><a href="" class="text-decoration-none text-light">CONTACT</a></li>
+                    </ul>
+                </div>
                 <div class="col-auto d-lg-none row align-items-center">
                     <i class="fa-solid fa-bars text-light"></i>
                 </div>
@@ -63,15 +65,19 @@
             </div>
         </section>
         <section class="about py-4">
-            <div class="container container-small">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h3 class="fs-5 text-light">ABOUT</h3>
                     </div>
-                    <div class="col-12 col-lg-6">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-5">
                         <p class="fs-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolores ipsa eius dolorum pariatur, molestiae cumque laboriosam iste iure fugiat quaerat perferendis corrupti reiciendis magnam perspiciatis illum quam itaque sunt.</p>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-10 col-lg-5">
                         <p class="fs-5 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolores ipsa eius dolorum pariatur, molestiae cumque laboriosam iste iure fugiat quaerat perferendis corrupti reiciendis magnam perspiciatis illum quam itaque sunt.</p>
                     </div>
                     <div class="col-12 text-center">
@@ -81,16 +87,20 @@
             </div>
         </section>
         <section class="contact py-4">
-            <div class="container container-xsmall">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h3 class="fs-5">CONTACT ME</h3>
                     </div>
-                    <div class="col-12"><input type="text" placeholder="Name" class="border border-0 py-3"></div>
-                    <div class="col-12"><input type="email" placeholder="Email Address" class="border border-0 py-3"></div>
-                    <div class="col-12"><input type="text" placeholder="Phone Number" class="border border-0 py-3"></div>
-                    <div class="col-12"><textarea name="" id="" cols="30" rows="10" placeholder="Message" class="border border-0 py-3"></textarea></div>
-                    <div class="col-12">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center"> 
+                    <div class="col-10"><input type="text" placeholder="Name" class="border border-0 py-3 w-100"></div>
+                    <div class="col-10"><input type="email" placeholder="Email Address" class="border border-0 py-3 w-100"></div>
+                    <div class="col-10"><input type="text" placeholder="Phone Number" class="border border-0 py-3 w-100"></div>
+                    <div class="col-10"><textarea name="" id="" cols="30" rows="10" placeholder="Message" class="border border-0 py-3 w-100"></textarea></div>
+                    <div class="col-10">
                         <a href="" class="button text-dark">Send</a>
                     </div>
                 </div>
@@ -117,7 +127,9 @@
             </div>
         </section>
         <section class="copyright py-4">
-            <h4 class="fs-6 text-light text-center">Copyright @ Your Website 2019</h4>
+            <div class="container">
+                <h4 class="fs-6 text-light text-center">Copyright @ Your Website 2019</h4>
+            </div>
         </section>
     </footer>
 </body>
