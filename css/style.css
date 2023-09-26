@@ -19,6 +19,16 @@ header,
     margin: 0;
 }
 
+/* ABOUT */
+
+.form-send{
+    background-color: var(--green);
+}
+
+*::placeholder{
+    color: black;
+}
+
 /* DETAILS */
 
 .details{
